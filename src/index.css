@@ -9,20 +9,7 @@ body{
     font-family: sans-serif;
 }
 
-.card-box{
-    display: flex;
-    justify-content: space-between;
-    
-}
+ a[href="#"]{
+    background-color: red;
 
-.card{
-    background-color: #65a30d;
-    padding: 20px;
-    width: 250px;
-}
-
-.date{
-    font-style: italic;
-    color: #f7fee7;
-
-}
+ }
