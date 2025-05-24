@@ -19,8 +19,8 @@ body{
 }
 .card{
     border: 2px solid gray;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 15px;
     position: relative;
     overflow: hidden;
@@ -47,6 +47,7 @@ body{
 
 .card img{
     width: 100%;
+    margin-top: 20px;
 }
 
 ion-icon[name="bookmark"]{
@@ -57,7 +58,7 @@ ion-icon[name="bookmark"]{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(187, 186, 186);
     padding: 10px;
     position: absolute;
     bottom: 0;
